@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 import Nav from "../../components/Nav/Nav";
+import AuthModal from "../../components/AuthModal/AuthModal";
 
 import "./styles.css";
-import AuthModal from "../../components/AuthModal/AuthModal";
 
 const Home = () => {
 
