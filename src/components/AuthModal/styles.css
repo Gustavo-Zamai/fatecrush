@@ -1,0 +1,58 @@
+.auth-modal-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 28.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 36rem;
+    height: 60rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 4rem;
+}
+
+.close-icon {
+    float: right;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+
+.secondary-button {
+    color: rgb(121,119,119);
+    background-color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 1.2rem 3rem;
+    border-radius: 3rem;
+    border: solid .2rem rgb(121,119,119);
+    margin: .6rem; 
+}
+
+.secondary-button:hover{
+    color: rgb(48,48,48);
+    border: solid .2rem rgb(48,48,48);
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+input[type=password],
+input[type=email] {
+    padding: .8rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    border: solid .2rem rgb(48,48,48    );
+    transition: 0.2s;
+}
+
